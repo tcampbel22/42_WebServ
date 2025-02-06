@@ -53,7 +53,7 @@ Compile the project with Make
 Open your browser and go to the specified ip and port. You can then navigate the website.
 ```
 
-<h2>🍰 Contribution Guidelines:</h2>
+<h2>About</h2>
 
 The scope of this project was large and we divided it in three initial parts. I parsed the config file, built the logger and data structure @codingolfer handled the HTTP Request parsing and @Welhox handled the response. 
 We all worked on the server loop and CGI together. The configuration parsing required deep understanding of NGINX's own standards and I based our own on this. 
