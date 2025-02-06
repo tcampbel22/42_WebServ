@@ -1,35 +1,188 @@
-[INFO]  2025-02-06 14:44:23: WEBSERV STARTED
-[INFO] 2025-02-06 14:44:23: max_client_body in server block 127.0.0.2:8081 defaulted to 9000000
-[INFO] 2025-02-06 14:44:23: Listening on host: 127.0.0.1 Port: 8081
-[INFO] 2025-02-06 14:44:23: Listening on host: 127.0.0.2 Port: 8081
-[INFO] 2025-02-06 14:44:25: New client connected: 7
-[INFO] 2025-02-06 14:44:25: Bytes recieved: 542
-[INFO] 2025-02-06 14:44:25: [200] Great Success!
-[INFO] 2025-02-06 14:44:25: Bytes recieved: 456
-[INFO] 2025-02-06 14:44:25: [404] is-readable: file does not exist
-[INFO] 2025-02-06 14:44:25: Bytes recieved: 0
-[INFO] 2025-02-06 14:44:25: Client closed the connection.
-[INFO] 2025-02-06 14:44:25: fd [7] deleted from epoll event list
-[INFO] 2025-02-06 14:44:51: New client connected: 7
-[INFO] 2025-02-06 14:44:51: Bytes recieved: 673
-[INFO] 2025-02-06 14:44:51: [200] Great Success!
-[INFO] 2025-02-06 14:44:51: Bytes recieved: 458
-[INFO] 2025-02-06 14:44:51: [404] is-readable: file does not exist
-[INFO] 2025-02-06 14:44:51: Bytes recieved: 0
-[INFO] 2025-02-06 14:44:51: Client closed the connection.
-[INFO] 2025-02-06 14:44:51: fd [7] deleted from epoll event list
-[INFO] 2025-02-06 14:44:53: New client connected: 7
-[INFO] 2025-02-06 14:44:53: Bytes recieved: 557
-[INFO] 2025-02-06 14:44:53: [200] Great Success!
-[INFO] 2025-02-06 14:44:57: Bytes recieved: 554
-[INFO] 2025-02-06 14:44:57: [200] Great Success!
-[INFO] 2025-02-06 14:44:58: Bytes recieved: 549
-[INFO] 2025-02-06 14:44:58: [200] Great Success!
-[INFO] 2025-02-06 14:44:58: Bytes recieved: 453
-[INFO] 2025-02-06 14:44:58: [404] is-readable: file does not exist
-[INFO] 2025-02-06 14:44:58: Bytes recieved: 0
-[INFO] 2025-02-06 14:44:58: Client closed the connection.
-[INFO] 2025-02-06 14:44:58: fd [7] deleted from epoll event list
-[INFO] 2025-02-06 14:46:53: 
+[INFO]  2025-02-06 18:37:06: WEBSERV STARTED
+[INFO] 2025-02-06 18:37:06: max_client_body in server block 127.0.0.2:8081 defaulted to 9000000
+[INFO] 2025-02-06 18:37:06: Listening on host: 127.0.0.1 Port: 8081
+[INFO] 2025-02-06 18:37:06: Listening on host: 127.0.0.2 Port: 8081
+[INFO] 2025-02-06 18:37:11: New client connected: 7
+[INFO] 2025-02-06 18:37:11: Bytes recieved: 484
+[INFO] 2025-02-06 18:37:11: [200] Great Success!
+[INFO] 2025-02-06 18:37:11: Bytes recieved: 438
+[INFO] 2025-02-06 18:37:11: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:37:11: Bytes recieved: 0
+[INFO] 2025-02-06 18:37:11: Client closed the connection.
+[INFO] 2025-02-06 18:37:11: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:47:27: New client connected: 7
+[INFO] 2025-02-06 18:47:27: Bytes recieved: 542
+[INFO] 2025-02-06 18:47:27: [200] Great Success!
+[INFO] 2025-02-06 18:47:27: Bytes recieved: 456
+[INFO] 2025-02-06 18:47:27: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:47:27: Bytes recieved: 0
+[INFO] 2025-02-06 18:47:27: Client closed the connection.
+[INFO] 2025-02-06 18:47:27: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:47:32: New client connected: 7
+[INFO] 2025-02-06 18:47:32: Bytes recieved: 682
+[INFO] 2025-02-06 18:47:32: [200] Great Success!
+[INFO] 2025-02-06 18:47:33: Bytes recieved: 458
+[INFO] 2025-02-06 18:47:33: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:47:33: Bytes recieved: 0
+[INFO] 2025-02-06 18:47:33: Client closed the connection.
+[INFO] 2025-02-06 18:47:33: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:47:34: New client connected: 7
+[INFO] 2025-02-06 18:47:34: Bytes recieved: 554
+[INFO] 2025-02-06 18:47:34: [200] Great Success!
+[INFO] 2025-02-06 18:47:36: Bytes recieved: 549
+[INFO] 2025-02-06 18:47:36: [200] Great Success!
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 1024
+[INFO] 2025-02-06 18:47:48: Waiting for more data...
+[INFO] 2025-02-06 18:47:48: Bytes recieved: 975
+[INFO] 2025-02-06 18:47:48: [400] check-path: path syntax error
+[INFO] 2025-02-06 18:48:19: timeout: closing client socket 7
+[INFO] 2025-02-06 18:48:19: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:48:24: New client connected: 7
+[INFO] 2025-02-06 18:48:24: Bytes recieved: 552
+[INFO] 2025-02-06 18:48:24: [200] Great Success!
+[INFO] 2025-02-06 18:48:29: Bytes recieved: 682
+[INFO] 2025-02-06 18:48:30: [200] Great Success!
+[INFO] 2025-02-06 18:48:31: Bytes recieved: 554
+[INFO] 2025-02-06 18:48:31: [200] Great Success!
+[INFO] 2025-02-06 18:48:32: Bytes recieved: 448
+[INFO] 2025-02-06 18:48:32: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:48:32: Bytes recieved: 0
+[INFO] 2025-02-06 18:48:32: Client closed the connection.
+[INFO] 2025-02-06 18:48:32: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:48:33: New client connected: 7
+[INFO] 2025-02-06 18:48:33: Bytes recieved: 549
+[INFO] 2025-02-06 18:48:33: [200] Great Success!
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 1024
+[INFO] 2025-02-06 18:48:41: Waiting for more data...
+[INFO] 2025-02-06 18:48:41: Bytes recieved: 823
+[INFO] 2025-02-06 18:48:44: Bytes recieved: 554
+[INFO] 2025-02-06 18:48:44: [200] Great Success!
+[INFO] 2025-02-06 18:48:54: Bytes recieved: 489
+[INFO] 2025-02-06 18:48:54: [200] Great Success!
+[INFO] 2025-02-06 18:48:55: Bytes recieved: 443
+[INFO] 2025-02-06 18:48:55: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:48:55: Bytes recieved: 0
+[INFO] 2025-02-06 18:48:55: Client closed the connection.
+[INFO] 2025-02-06 18:48:55: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:48:57: New client connected: 7
+[INFO] 2025-02-06 18:48:57: Bytes recieved: 541
+[INFO] 2025-02-06 18:48:57: [200] Great Success!
+[INFO] 2025-02-06 18:48:58: Bytes recieved: 450
+[INFO] 2025-02-06 18:48:58: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:48:58: Bytes recieved: 0
+[INFO] 2025-02-06 18:48:58: Client closed the connection.
+[INFO] 2025-02-06 18:48:58: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:49:02: New client connected: 7
+[INFO] 2025-02-06 18:49:02: Bytes recieved: 550
+[INFO] 2025-02-06 18:49:02: [200] Great Success!
+[INFO] 2025-02-06 18:49:04: Bytes recieved: 443
+[INFO] 2025-02-06 18:49:04: [404] is-readable: file does not exist
+[INFO] 2025-02-06 18:49:04: Bytes recieved: 0
+[INFO] 2025-02-06 18:49:04: Client closed the connection.
+[INFO] 2025-02-06 18:49:04: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:49:05: New client connected: 7
+[INFO] 2025-02-06 18:49:05: Bytes recieved: 539
+[INFO] 2025-02-06 18:49:05: [200] Great Success!
+[INFO] 2025-02-06 18:49:36: timeout: closing client socket 7
+[INFO] 2025-02-06 18:49:36: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 18:53:43: 
 Exit signal received, server shutting down.. 
-[INFO]  2025-02-06 14:46:53: WEBSERV FINISHED
+[INFO]  2025-02-06 18:53:43: WEBSERV FINISHED
