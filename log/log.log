@@ -1,0 +1,35 @@
+[INFO]  2025-02-06 14:44:23: WEBSERV STARTED
+[INFO] 2025-02-06 14:44:23: max_client_body in server block 127.0.0.2:8081 defaulted to 9000000
+[INFO] 2025-02-06 14:44:23: Listening on host: 127.0.0.1 Port: 8081
+[INFO] 2025-02-06 14:44:23: Listening on host: 127.0.0.2 Port: 8081
+[INFO] 2025-02-06 14:44:25: New client connected: 7
+[INFO] 2025-02-06 14:44:25: Bytes recieved: 542
+[INFO] 2025-02-06 14:44:25: [200] Great Success!
+[INFO] 2025-02-06 14:44:25: Bytes recieved: 456
+[INFO] 2025-02-06 14:44:25: [404] is-readable: file does not exist
+[INFO] 2025-02-06 14:44:25: Bytes recieved: 0
+[INFO] 2025-02-06 14:44:25: Client closed the connection.
+[INFO] 2025-02-06 14:44:25: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 14:44:51: New client connected: 7
+[INFO] 2025-02-06 14:44:51: Bytes recieved: 673
+[INFO] 2025-02-06 14:44:51: [200] Great Success!
+[INFO] 2025-02-06 14:44:51: Bytes recieved: 458
+[INFO] 2025-02-06 14:44:51: [404] is-readable: file does not exist
+[INFO] 2025-02-06 14:44:51: Bytes recieved: 0
+[INFO] 2025-02-06 14:44:51: Client closed the connection.
+[INFO] 2025-02-06 14:44:51: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 14:44:53: New client connected: 7
+[INFO] 2025-02-06 14:44:53: Bytes recieved: 557
+[INFO] 2025-02-06 14:44:53: [200] Great Success!
+[INFO] 2025-02-06 14:44:57: Bytes recieved: 554
+[INFO] 2025-02-06 14:44:57: [200] Great Success!
+[INFO] 2025-02-06 14:44:58: Bytes recieved: 549
+[INFO] 2025-02-06 14:44:58: [200] Great Success!
+[INFO] 2025-02-06 14:44:58: Bytes recieved: 453
+[INFO] 2025-02-06 14:44:58: [404] is-readable: file does not exist
+[INFO] 2025-02-06 14:44:58: Bytes recieved: 0
+[INFO] 2025-02-06 14:44:58: Client closed the connection.
+[INFO] 2025-02-06 14:44:58: fd [7] deleted from epoll event list
+[INFO] 2025-02-06 14:46:53: 
+Exit signal received, server shutting down.. 
+[INFO]  2025-02-06 14:46:53: WEBSERV FINISHED
