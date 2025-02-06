@@ -54,11 +54,11 @@ There were many challenges in this project the most pressing was the handling of
 
 <h2>Pics:</h2>
 <h3>Homepage</h3>
-![Alt text](root/etc/Homepage.png)
+<img src="https://github.com/tcampbel22/42_WebServ/blob/master/root/etc/Homepage.png?raw=true" alt="project-screenshot" width="400" height="400/">
 <h3>CGI</h3>
-![Alt text](root/etc/CGI.png)
+<img src="https://github.com/tcampbel22/42_WebServ/blob/master/root/etc/CGI.png?raw=true" alt="project-screenshot" width="400" height="400/">
 <h3>File upload</h3>
-![Alt text](root/etc/File upload.png)
+<img src="https://github.com/tcampbel22/42_WebServ/blob/master/root/etc/File%20upload.png?raw=true" alt="project-screenshot" width="400" height="400/">
 
   
 <h2>💻 Built with</h2>
