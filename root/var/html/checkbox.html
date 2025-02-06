@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Set the title of the web page -->
+    <title>Hello Form</title>
+    <style>
+        /* Add some basic CSS for styling */
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 30px;
+		}
+		.logo {
+			color: white;
+			text-decoration: none;
+			font-size: 24px;
+			font-weight: bold;
+			font-family: 'Fira sans', sans-serif;
+			display: flex;
+		}
+        body, html {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+			margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333; /* Change the heading color to green */
+        }
+        form {
+            padding: 20px;
+            margin: 0 auto;
+            width: 300px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        input[type='text'], input[type='checkbox'], input[type='submit'] {
+            display: block;
+            margin: 5px auto;
+        }
+        .checkbox-label {
+            display: inline-block; /* Display checkboxes inline */
+            margin-right: 10px; /* Add spacing between checkboxes and labels */
+        }
+		footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+	<header><a href="index.html" class="logo">WEBSERV</a>
+	</header>
+	<h1>Post_It</h1>
+    <!-- Form with method 'post', action 'cgitester.py', and enctype for file upload -->
+    <form method='POST' action='/cgi-bin/cgitester.py' enctype="application/x-www-form-urlencoded">
+        <!-- Name input field -->
+        <p><label for="name">Name:</label> <input type='text' name='name' id="name" /></p>
+        <!-- Happy checkbox with label and ID 'happy' -->
+        <label class="checkbox-label" for="happy">&#128512; Happy</label>
+        <input type='checkbox' name='happy' id="happy" />
+        <!-- Sad checkbox with label and ID 'sad' -->
+        <label class="checkbox-label" for="sad">&#128546; Sad</label>
+        <input type='checkbox' name='sad' id="sad" />
+        <!-- Submit button -->
+        <input type='submit' value='Submit' />
+    </form>
+	<footer>
+		<p>&copy; 2025 Our Website. All Rights Reserved To The Mandem.</p>
+	</footer>
+</body>
+</html>

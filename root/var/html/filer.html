@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>File Upload Without Fetch</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(8, 207, 21, 0.479);
+            text-align: center;
+        }
+        header {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            text-align: center;
+        }
+        header h2 {
+            margin: 0;
+        }
+        h2 {
+            font-size: 24px;
+            color: white;
+        }
+        button {
+            padding: 10px 20px;
+            border-radius: 20px; 
+            color: white;
+            background-color: #1980ed;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block; 
+            transition: background-color 0.3s ease, transform 0.2s ease; 
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .logo {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Fira sans', sans-serif;
+            display: flex;
+        }
+        p {
+            display: block;
+            margin: 10px 0;
+        }
+        #fileInput {
+            display: none;
+        }
+        #fileName {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+        .upload-message {
+            margin-top: 10px;
+            font-size: 16px;
+            color: green;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">WEBSERV</a>
+        <h2>Upload a File Without Fetch</h2>
+    </header>
+
+    <p>
+        <button class="file-button" onclick="document.getElementById('fileInput').click();">
+            Select File
+        </button>
+        <input type="file" id="fileInput" onchange="displayFileName()"/>
+    </p>
+
+    <div id="fileName"></div>
+    <button onclick="uploadFile()">Upload</button>
+
+    <div id="uploadMessage" class="upload-message">Upload Complete!</div>
+
+    <script>
+        function displayFileName() {
+            const fileInput = document.getElementById('fileInput');
+            const fileName = fileInput.files[0] ? fileInput.files[0].name : 'No file selected';
+            document.getElementById('fileName').textContent = `Selected file: ${fileName}`;
+
+			document.getElementById('uploadMessage').style.display = 'none';
+        }
+
+        function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Please select a file to upload.");
+                return;
+            }
+
+            const xhr = new XMLHttpRequest();
+            const fileName = encodeURIComponent(file.name);
+            const uploadUrl = `/temp/${fileName}`;
+
+            xhr.open("POST", uploadUrl, true);
+            xhr.setRequestHeader("Content-Type", "application/octet-stream");
+
+            xhr.onload = function () {
+                if (xhr.status === 201) {
+                    console.log("File uploaded successfully!");
+                    // alert("File uploaded successfully!");
+                    showUploadCompleteMessage();
+				} else if (xhr.status === 200) {
+					// alert("File apended successfully!");
+                    showUploadCompleteMessage();
+				} else {
+                    console.error("Error uploading file:", xhr.statusText);
+                    alert("Error uploading file.");
+                }
+            };
+
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const fileContent = event.target.result;
+                xhr.send(fileContent);
+            };
+
+            reader.readAsArrayBuffer(file);
+        }
+
+        function showUploadCompleteMessage() {
+            const uploadMessage = document.getElementById('uploadMessage');
+            uploadMessage.style.display = 'block'; // Show "Upload Complete" message
+			
+        }
+    </script>
+
+    <footer>
+        <p>Copyrights belong to Tim, Casi and Esteban 2025</p>
+    </footer>
+</body>
+</html>

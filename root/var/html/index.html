@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        nav button:hover {
+            background-color: #0056b3;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		.logo {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Fira sans', sans-serif;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<a href="index.html" class="logo">WEBSERV</a>
+        <h1>Welcome</h1>
+    </header>
+    <nav>
+        <button onclick="location.href='/html/about.html'">About</button>
+        <button onclick="location.href='/html/casi.html'">Casi</button>
+        <button onclick="location.href='/html/tim.html'">Tim</button>
+        <button onclick="location.href='/html/eromon.html'">Eromon</button>
+		<button onclick="location.href='/html/void.html'">Void</button>
+    </nav>
+	<nav>
+		<button onclick="location.href='/html/checkbox.html'">Cgi-Post</button>
+		<button onclick="location.href='/html/filer.html'">Upload</button>
+	</nav>
+    <main>
+        <h2>Homepage Content</h2>
+        <p>Welcome To Our Homepage.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Our Website. All Rights Reserved To The Mandem.</p>
+    </footer>
+</body>
+</html>
