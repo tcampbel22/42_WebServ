@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Webserv</h1>
 
-<p id="description">Build a HTTP1.1 web server that serves a fully static website. This was built together with @[codinggolfer](https://github.com/codinggolfer) and @[Welhox](https://github.com/Welhox)</p>
+<p id="description">Build a HTTP1.1 web server that serves a fully static website. This was built together with [codinggolfer](https://github.com/codinggolfer). and[Welhox](https://github.com/Welhox).</p>
 
 <h2>Gallery</h2>
 <h3>Homepage</h3>
