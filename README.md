@@ -2,9 +2,9 @@
 
 <p id="description">Build a HTTP1.1 web server that serves a fully static website. This was built together with -> </p> 
 
-[codinggolfer](https://github.com/codinggolfer). 
+- [Codinggolfer](https://github.com/codinggolfer). 
 
-[Welhox](https://github.com/Welhox).
+- [Welhox](https://github.com/Welhox).
 
 <h2>Gallery</h2>
 <h3>Homepage</h3>
